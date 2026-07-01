@@ -1,0 +1,5 @@
+variant,pass_at_1_percent,delta_vs_full_points
+TraceAlign Full Framework,84.00,0.00
+Without Arbiter Blind Repair,64.00,-20.00
+Without Generated Tests and Arbiter Sample Only,78.00,-6.00
+Without Any Repair Zero-shot Baseline,62.00,-22.00

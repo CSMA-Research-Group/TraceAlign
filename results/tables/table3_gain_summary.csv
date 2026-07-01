@@ -1,0 +1,4 @@
+model,HumanEval_plus,MBPP_plus,APPS,LiveCodeBench
+Gemini-2.5-Flash,-0.61,2.12,6.67,5.72
+Qwen-Plus-2025-12-01,-0.61,1.59,16.67,-0.57
+Qwen-2.5-Coder,1.83,2.11,-0.66,7.43

@@ -1,0 +1,113 @@
+{
+  "n_cases": 80,
+  "independent_exact_agreement": 0.6875,
+  "independent_agreement_count": 55,
+  "independent_disagreement_count": 25,
+  "cohens_kappa_3way_independent": 0.2700729927007301,
+  "annotator_a_label_counts": {
+    "faulty_test": 60,
+    "code_defect": 15,
+    "unclear": 5
+  },
+  "annotator_b_label_counts": {
+    "faulty_test": 56,
+    "code_defect": 18,
+    "unclear": 6
+  },
+  "annotator_confusion_a_rows_b_columns": {
+    "code_defect": {
+      "code_defect": 8,
+      "faulty_test": 6,
+      "unclear": 1
+    },
+    "faulty_test": {
+      "code_defect": 8,
+      "faulty_test": 47,
+      "unclear": 5
+    },
+    "unclear": {
+      "code_defect": 2,
+      "faulty_test": 3,
+      "unclear": 0
+    }
+  },
+  "final_consensus_label_counts": {
+    "faulty_test": 62,
+    "code_defect": 14,
+    "unclear": 4
+  },
+  "post_resolution_count": 25,
+  "arbiter_binary_eval_n_excluding_unclear": 76,
+  "arbiter_binary_excluded_unclear_n": 4,
+  "arbiter_binary_accuracy": 0.618421052631579,
+  "arbiter_binary_macro_f1": 0.5721219180741604,
+  "arbiter_binary_confusion_human_rows_arbiter_columns": {
+    "code_defect": {
+      "code_defect": 11,
+      "faulty_test": 3
+    },
+    "faulty_test": {
+      "code_defect": 26,
+      "faulty_test": 36
+    }
+  },
+  "arbiter_binary_per_class": {
+    "code_defect": {
+      "precision": 0.2972972972972973,
+      "recall": 0.7857142857142857,
+      "f1": 0.43137254901960786,
+      "support": 14,
+      "tp": 11,
+      "fp": 26,
+      "fn": 3
+    },
+    "faulty_test": {
+      "precision": 0.9230769230769231,
+      "recall": 0.5806451612903226,
+      "f1": 0.7128712871287128,
+      "support": 62,
+      "tp": 36,
+      "fp": 3,
+      "fn": 26
+    }
+  },
+  "arbiter_3way_diagnostic_accuracy_with_unclear_as_unpredicted": 0.5875,
+  "arbiter_3way_diagnostic_macro_f1": 0.3710965867828613,
+  "arbiter_3way_diagnostic_confusion": {
+    "code_defect": {
+      "code_defect": 11,
+      "faulty_test": 3,
+      "unclear": 0
+    },
+    "faulty_test": {
+      "code_defect": 26,
+      "faulty_test": 36,
+      "unclear": 0
+    },
+    "unclear": {
+      "code_defect": 3,
+      "faulty_test": 1,
+      "unclear": 0
+    }
+  },
+  "arbiter_3way_diagnostic_per_class": {
+    "code_defect": {
+      "precision": 0.275,
+      "recall": 0.7857142857142857,
+      "f1": 0.40740740740740744,
+      "support": 14
+    },
+    "faulty_test": {
+      "precision": 0.9,
+      "recall": 0.5806451612903226,
+      "f1": 0.7058823529411764,
+      "support": 62
+    },
+    "unclear": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "support": 4
+    }
+  }
+}

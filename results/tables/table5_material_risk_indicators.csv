@@ -1,0 +1,7 @@
+risk_indicator,n,faulty_test,code_defect,unclear
+Reconstructed code w/ trace mismatch,23,22,0,1
+No diagnostic trace,13,12,0,1
+Empty trace,11,8,3,0
+Locator--trace mismatch,10,10,0,0
+Interface/function-name mismatch,7,4,3,0
+Test-generation/tracing timeout,5,3,1,1

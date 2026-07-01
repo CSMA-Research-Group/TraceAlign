@@ -1,0 +1,3 @@
+case_id,material_precheck_status,final_consensus_label,public_rationale_excerpt
+APPS-AUDIT-001,clean_candidate,faulty_test,The generated expected output contradicted the task rule for phrase replacement; the candidate behavior was consistent with the specification.
+APPS-AUDIT-003,flagged_material_risk,faulty_test,The observed failure was tied to test generation/tracing timeout rather than a clearly attributable candidate-code execution failure.
